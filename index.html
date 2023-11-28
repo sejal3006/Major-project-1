@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Major Project</title>
+  </head>
+  <body>
+    <a href="#home">
+      <button id="up-arrow-button">
+        <i class="fa-solid fa-chevron-down fa-rotate-180"></i>
+      </button>
+    </a>
+    <!-- Navbar -->
+    <div class="navbar heightAdd" id="nav">
+      <div class="nav-container">
+        <div class="logo">
+          <img
+            src="https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/assets/images/logo.svg"
+            alt=""
+          />
+        </div>
+        <div class="nav-items">
+          <a href="#home">Home</a>
+          <a href="#intro">intro</a>
+          <a href="#service">services</a>
+          <a href="#callme">call me</a>
+          <a href="#projects">projects</a>
+          <a href="#about" class="about-nav"
+            >about
+            <i class="fa-solid fa-chevron-down fa-rotate-0"></i>
+          </a>
+          <a href="#contact">contact</a>
+          <div class="fa-container">
+            <div class="section-icons">
+              <a href="" class="logo">
+                <span class="hexagon"></span>
+                <i class="fa-brands fa-facebook-f icon-1"></i>
+              </a>
+            </div>
+            <div class="section-icons">
+              <a href="" class="logo">
+                <span class="hexagon"></span>
+                <i class="icon-2 fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Home -->
+    <div class="home-container" id="home">
+      <div class="column-box">
+        <div class="details">
+          <h1>Business <span id="home-heading">TEMPLATE</span></h1>
+          <p>
+            Aria is a top consultancy company specializing in business growth
+            using online marketing and conversion optimization tactics
+          </p>
+        </div>
+        <a href="#intro">
+          <button>Discover</button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Intro -->
+    <div class="intro-container" id="intro">
+      <div class="box-container">
+        <div class="details-container">
+          <div class="intro-heading">
+            <p>Intro</p>
+            <h1>We Offer Some Of The Best Business Growth Services In Town</h1>
+          </div>
+          <p>
+            Launching a new company or developing the market position of an
+            existing one can be quite an overwhelming processs at times.
+          </p>
+          <i>
+            <p>
+              "Our mission here at Aira is to get you through those tough
+              moments relying on our team's expertise in starting and growing
+              companies."
+            </p>
+          </i>
+          <h2>Louise Donovan - CEO</h2>
+        </div>
+        <div class="intro-img-container">
+          <img src="./asset/intro-office.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="card-containers">
+      <div class="flex-cards">
+        <div class="flex-card">
+          <div class="intro-section-icons">
+            <span class="card-hexagon"></span>
+            <i class="fas fa-binoculars fa-stack-1x"></i>
+          </div>
+          <h1>Environment Analysis</h1>
+          <p>
+            The starting point of any success story is knowing your current
+            position in the business environment
+          </p>
+        </div>
+        <div class="flex-card">
+          <div class="intro-section-icons">
+            <span class="card-hexagon"></span>
+            <i class="fas fa-list-alt fa-stack-1x"></i>
+          </div>
+          <h1>Development Planning</h1>
+          <p>
+            After completing the environmental analysis the next stage is to
+            design and plan your development strategy
+          </p>
+        </div>
+        <div class="flex-card">
+          <div class="intro-section-icons">
+            <span class="card-hexagon"></span>
+            <i class="fas fa-chart-pie fa-stack-1x"></i>
+          </div>
+          <h1>Execution & Evaluation</h1>
+          <p>
+            In this phase you will focus on executing the actions plan and
+            evaluating the results after each marketing campaign
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div class="service" id="service">
+      <div class="service-heading">
+        <p>SERVICES</p>
+        <h1>Choose The Service Package That Suits Your Needs</h1>
+      </div>
+      <div class="service-card-container">
+        <div class="service-card">
+          <div class="service-card-img"></div>
+          <div class="service-details">
+            <h2>Off The Ground</h2>
+            <p>
+              Perfect for fresh ideas or young startups, this package will help
+              get the business off the ground
+            </p>
+            <div class="sqr-info">
+              <i class="fas fa-square"></i>
+              Environment and competition
+            </div>
+            <div class="sqr-info">
+              <i class="fas fa-square"></i>
+              Designing the marketing plan
+            </div>
+            <div class="service-card-price">
+              <h3>Starting at <span class="green">$199</span></h3>
+            </div>
+            <button class="service-card-btn">Details</button>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-card-img service-img-2"></div>
+          <div class="service-details">
+            <h2 class="service-2">Accelerated Growth</h2>
+            <p>
+              Use this service pack to give your company the necessary impulse
+              to become an industry leader
+            </p>
+            <div class="sqr-info">
+              <i class="fas fa-square"></i>
+              Business strategy planning
+            </div>
+            <div class="sqr-info">
+              <i class="fas fa-square"></i>
+              Taking the planned actions
+            </div>
+            <div class="service-card-price">
+              <h3>Starting at <span class="green">$299</span></h3>
+            </div>
+            <button class="service-card-btn">Details</button>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-card-img service-img-3"></div>
+          <div class="service-details">
+            <h2>Market Domination</h2>
+            <p>
+              You already are a reference point in your industry now you need to
+              learn about acquisitions
+            </p>
+            <div class="sqr-info">
+              <i class="fas fa-square"></i>
+              Maintaining the leader status
+            </div>
+            <div class="sqr-info">
+              <i class="fas fa-square"></i>
+              Acquisitions the right way
+            </div>
+            <div class="service-card-price">
+              <h3>Starting at <span class="green">$299</span></h3>
+            </div>
+            <button class="service-card-btn">Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- details -->
+    <div class="service-area-details">
+      <div class="area-1"></div>
+      <div class="area-2">
+        <h1>Accelerate Business Growth To Improve Revenue Numbers</h1>
+        <div class="area-number">
+          <span class="circle-number">1</span>
+          <span class="area-2-detail">How Can Aria Help Your Business</span>
+        </div>
+        <div class="area-number">
+          <span class="circle-number">2</span>
+          <span class="area-2-detail">Great Strategic Business Planning</span>
+        </div>
+        <div class="area-number">
+          <span class="circle-number">3</span>
+          <span class="area-2-detail">Online Marketing Campaigns</span>
+        </div>
+      </div>
+    </div>
+    <div class="bussiness-progress">
+      <div class="progress-area-1">
+        <div class="bussiness-items">
+          <div class="bussiness-titles">
+            <div class="icon-title green">
+              <i class="fas fa-th"></i>
+              Business
+            </div>
+            <div class="icon-title">
+              <i class="fas fa-th"></i>
+              Expertise
+            </div>
+            <div class="icon-title">
+              <i class="fas fa-th"></i>
+              Quality
+            </div>
+          </div>
+          <div class="bussiness-desc">
+            <h3>Business Services For Companies</h3>
+            <p>
+              Aria provides the most innovative and customized business services
+              in the industry. Our <a href="">Services</a> section shows how
+              flexible we are for all types of budgets.
+            </p>
+          </div>
+          <div>
+            <div class="progressbar-container">
+              <p>Business Development 100%</p>
+              <div class="bar">
+                <div class="filled-bar"></div>
+              </div>
+            </div>
+            <div class="progressbar-container">
+              <p>Opportunity Spotting 76%</p>
+              <div class="bar">
+                <div class="filled-bar bar-2"></div>
+              </div>
+            </div>
+            <div class="progressbar-container">
+              <p>Online Marketing 90%</p>
+              <div class="bar">
+                <div class="filled-bar bar-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="progress-area-2"></div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="testimonials">
+      <div class="text-heading">
+        <h1>Read Our Customer Testimonials</h1>
+        <p>
+          Our clients are our partners and we can not imagine a better future
+          for our company without helping them reach their objectives
+        </p>
+      </div>
+      <button class="test-arrow-left">
+        <i class="fa-solid fa-chevron-down fa-rotate-90"></i>
+      </button>
+      <div class="test-card-container">
+        <div class="test-card">
+          <img src="./asset/testimonial-6.jpg" alt="" />
+          <p>
+            <i>
+              My goals for using Aria's services seemed high when I first set
+              them but they've met them with no problems.
+            </i>
+          </p>
+          <h4>Jude Thorn - Founder</h4>
+        </div>
+        <div class="test-card">
+          <img src="./asset/testimonial-3.jpg" alt="" />
+          <p>
+            <i>
+              Aria's CEO personally attends client meetings and gives his
+              feedback on business growth strategies.
+            </i>
+          </p>
+          <h4>Roy Smith - Developer</h4>
+        </div>
+        <div class="test-card">
+          <img src="./asset/testimonial-1.jpg" alt="" />
+          <p>
+            <i>
+              The guys from Aria helped with getting my business off the ground
+              and turning into a profitable company.
+            </i>
+          </p>
+          <h4>Jude Thorn - Founder</h4>
+        </div>
+        <div class="test-card">
+          <img src="./asset/testimonial-2.jpg" alt="" />
+          <p>
+            <i>
+              Aria's CEO personally attends client meetings and gives his
+              feedback on business growth strategies.
+            </i>
+          </p>
+          <h4>Roy Smith - Developer</h4>
+        </div>
+        <div class="test-card">
+          <img src="./asset/testimonial-4.jpg" alt="" />
+          <p>
+            <i>
+              At the beginning I thought the prices are a little high for what
+              they offer but they over deliver each and every time.
+            </i>
+          </p>
+          <h4>Ronald Spice - Owner</h4>
+        </div>
+        <div class="test-card">
+          <img src="./asset/testimonial-5.jpg" alt="" />
+          <p>
+            <i>
+              I recommend Aria to every business owner or growth leader that
+              wants to take his company to the next level.
+            </i>
+          </p>
+          <h4>Lindsay Rune - Manager</h4>
+        </div>
+      </div>
+      <button class="test-arrow-right">
+        <i class="fa-solid fa-chevron-down fa-rotate-270"></i>
+      </button>
+    </div>
+
+    <!-- call me section -->
+    <div class="callme" id="callme">
+      <div class="callme-container">
+        <div class="callme-details">
+          <div class="callme-heading">
+            <p>Call Me</p>
+            <h2>Have Us Contact You By Filling And Submitting The Form</h2>
+          </div>
+          <p>
+            You are just a few steps away from a personalized offer. Just fill
+            in the form and send it to us and we'll get right back with a call
+            to help you decide what service package works.
+          </p>
+          <div class="callme-sqr">
+            <div class="sqr-info text-color">
+              <i class="fas fa-square"></i>
+              It's very easy just fill in the form so we can call
+            </div>
+            <div class="sqr-info text-color">
+              <i class="fas fa-square"></i>
+              During the call we'll require some info about the company
+            </div>
+            <div class="sqr-info text-color">
+              <i class="fas fa-square"></i>
+              Don't hesitate to email us for any questions or inquiries
+            </div>
+          </div>
+        </div>
+        <form class="callme-form">
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Phone" />
+          <input type="email" placeholder="Email" />
+          <select>
+            <option>Interseted in...</option>
+            <option>Off the Ground</option>
+            <option>Accelerated Growth</option>
+            <option>Market Domination</option>
+          </select>
+          <div class="checkbox-container">
+            <input type="checkbox" />
+            I agree with Aria's stated <a href="#">Privacy Policy</a> and
+            <a href="#">Terms & Conditions</a>
+          </div>
+          <button>call me</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects" id="projects">
+      <div class="project-container">
+        <div class="service-heading project-heading">
+          <p>PROJECTS</p>
+          <h1>Projects That We're Proud Of</h1>
+        </div>
+        <div class="buttons-section">
+          <button id="active-button">show all</button>
+          <button>design</button>
+          <button>development</button>
+          <button>marketing</button>
+          <button>seo</button>
+        </div>
+
+        <div class="project-section">
+          <div class="box">
+            <div class="project-hide">Online Banking</div>
+            <img src="./asset/project-1.jpg" alt="" />
+          </div>
+          <div class="box">
+            <div class="project-hide">Classic Industry</div>
+            <img src="./asset/project-2.jpg" alt="" />
+          </div>
+          <div class="box">
+            <div class="project-hide">BoomBap Audio</div>
+            <img src="./asset/project-3.jpg" alt="" />
+          </div>
+          <div class="box">
+            <div class="project-hide">Van Moose</div>
+            <img src="./asset/project-4.jpg" alt="" />
+          </div>
+          <div class="box">
+            <div class="project-hide">Joy Moments</div>
+            <img src="./asset/project-5.jpg" alt="" />
+          </div>
+          <div class="box">
+            <div class="project-hide">Spark Events</div>
+            <img src="./asset/project-6.jpg" alt="" />
+          </div>
+          <div class="box">
+            <div class="project-hide">Casual Wear</div>
+            <img src="./asset/project-7.jpg" alt="" />
+          </div>
+          <div class="box">
+            <div class="project-hide">Zazoo Apps</div>
+            <img src="./asset/project-8.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- our team 🤷‍♀️ -->
+    <div class="ourTeam">
+      <div class="text-heading ourteam-heading">
+        <h1>Our Team Of Consultants</h1>
+        <p>
+          We're only as strong and as knowledgeable as our team. So here are the
+          men and women which help customers meet goals and grow companies
+        </p>
+      </div>
+      <div class="card-container-ourteam">
+        <div class="ourteam-card">
+          <div class="ourteam-img-container">
+            <img src="./asset/team-1.png" alt="" />
+          </div>
+          <div class="emp-details">
+            <p>John Whitelong</p>
+            <h4>General Manager</h4>
+            <div class="emp-social">
+              <div class="section-icons">
+                <a href="" class="logo">
+                  <span class="hexagon"></span>
+                  <i class="icon-ourteam fa-brands fa-facebook-f icon-1"></i>
+                </a>
+              </div>
+              <div class="section-icons">
+                <a href="" class="logo">
+                  <span class="hexagon"></span>
+                  <i class="icon-ourteam icon-2 fa-brands fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ourteam-card">
+          <div class="ourteam-img-container">
+            <img src="./asset/team-2.png" alt="" />
+          </div>
+          <div class="emp-details">
+            <p>Veronique Smith</p>
+            <h4>Business Developer</h4>
+            <div class="emp-social">
+              <div class="section-icons">
+                <a href="" class="logo">
+                  <span class="hexagon"></span>
+                  <i class="icon-ourteam fa-brands fa-facebook-f icon-1"></i>
+                </a>
+              </div>
+              <div class="section-icons">
+                <a href="" class="logo">
+                  <span class="hexagon"></span>
+                  <i class="icon-ourteam icon-2 fa-brands fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ourteam-card">
+          <div class="ourteam-img-container">
+            <img src="./asset/team-3.png" alt="" />
+          </div>
+          <div class="emp-details">
+            <p>Chris Zimerman</p>
+            <h4>Online Marketer</h4>
+            <div class="emp-social">
+              <div class="section-icons">
+                <a href="" class="logo">
+                  <span class="hexagon"></span>
+                  <i class="icon-ourteam fa-brands fa-facebook-f icon-1"></i>
+                </a>
+              </div>
+              <div class="section-icons">
+                <a href="" class="logo">
+                  <span class="hexagon"></span>
+                  <i class="icon-ourteam icon-2 fa-brands fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ourteam-card">
+          <div class="ourteam-img-container">
+            <img src="./asset/team-4.png" alt="" />
+          </div>
+          <div class="emp-details">
+            <p>Mary Villalonga</p>
+            <h4>Community Manager</h4>
+            <div class="emp-social">
+              <div class="section-icons">
+                <a href="" class="logo">
+                  <span class="hexagon"></span>
+                  <i class="icon-ourteam fa-brands fa-facebook-f icon-1"></i>
+                </a>
+              </div>
+              <div class="section-icons">
+                <a href="" class="logo">
+                  <span class="hexagon"></span>
+                  <i class="icon-ourteam icon-2 fa-brands fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="about" id="about">
+      <div class="about-container">
+        <div class="about-img-container"></div>
+        <div class="about-details">
+          <div class="about-heading">
+            <p>About</p>
+            <h2>We're Passionate About Delivering Growth Services</h2>
+          </div>
+          <p>
+            Our goal is to provide the right business growth services at the
+            appropriate time so companies can benefit from the created momentum
+            and thrive for a long period of time
+          </p>
+          <div class="abt-sqr-container">
+            <div class="sqr-info">
+              <i class="fas fa-square"></i>
+              Everything we recommend has direct positive impact
+            </div>
+            <div class="sqr-info">
+              <i class="fas fa-square"></i>
+              You will become an important partner of our company
+            </div>
+          </div>
+          <div class="counts">
+            <div class="abt-counts">
+              <h1>231</h1>
+              <p>Happy Users</p>
+            </div>
+            <div class="abt-counts">
+              <h1>121</h1>
+              <p>Issues Solved</p>
+            </div>
+            <div class="abt-counts">
+              <h1>159</h1>
+              <p>Good Reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="contact" id="contact">
+      <div class="contact-container">
+        <div class="contact-details">
+          <div class="contact-heading">
+            <p>contact</p>
+            <h3>Get In Touch Using The Form</h3>
+          </div>
+          <p>
+            You can stop by our office for a cup of coffee and just use the
+            contact form below for any questions and inquiries
+          </p>
+          <div class="contact-address">
+            <div class="address">
+              <i class="fas fa-map-marker-alt"></i>
+              22nd Innovative Street, San Francisco, CA 94043, US
+            </div>
+            <div class="contact-call">
+              <div class="contact-call-box">
+                <i class="fas fa-phone"></i>
+                <a href="">+81 720 22 126</a>
+              </div>
+              <div class="contact-call-box">
+                <i class="fas fa-phone"></i>
+                <a href="">+81 720 22 128</a>
+              </div>
+              <div class="contact-call-box">
+                <i class="fas fa-envelope"></i>
+                <a href="">office@domain.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="social-contact">
+            <h2>Follow Aria On Social Media</h2>
+            <div class="icons-contact">
+              <div class="section-icons contact-icons">
+                <span class="hexagon contact-hexagon"></span>
+                <i class="fa-brands fa-facebook-f facebook icon-1"></i>
+              </div>
+              <div class="section-icons contact-icons">
+                <span class="hexagon contact-hexagon"></span>
+                <i class="fab fa-twitter fa-stack-1x"></i>
+              </div>
+              <div class="section-icons contact-icons">
+                <span class="hexagon contact-hexagon"></span>
+                <i class="fab fa-pinterest fa-stack-1x"></i>
+              </div>
+              <div class="section-icons contact-icons">
+                <span class="hexagon contact-hexagon"></span>
+                <i class="fab fa-instagram fa-stack-1x"></i>
+              </div>
+              <div class="section-icons contact-icons">
+                <span class="hexagon contact-hexagon"></span>
+                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+              </div>
+              <div class="section-icons contact-icons">
+                <span class="hexagon contact-hexagon"></span>
+                <i class="fab fa-behance fa-stack-1x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="callme-form contact-form">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea cols="30" rows="6" placeholder="Your Message"></textarea>
+          <div class="checkbox-container contact-checkbox">
+            <input type="checkbox" />
+            I agree with Aria's stated <a href="#">Privacy Policy</a> and
+            <a href="#">Terms & Conditions</a>
+          </div>
+          <button>Submit Message</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- footer😩 -->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="upper-container">
+          <div class="footer-box-big">
+            <h3>Few Words About Aria</h3>
+            <p>
+              We're passionate about delivering the best business growth
+              services for companies just starting out as startups or industry
+              players that have established their market position a long tima
+              ago.
+            </p>
+          </div>
+          <div class="footer-box first">
+            <h3>Links</h3>
+            <a
+              href="https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/pages/terms-conditions.php"
+              >Terma & Conditions</a
+            >
+            <a
+              href="https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/pages/privacy-policy.php"
+              >Privacy Policy</a
+            >
+          </div>
+          <div class="footer-box">
+            <h3>Tools</h3>
+            <a href="">businessgrowth.com</a>
+            <a href="">influencers.com</a>
+            <a href="">optimizer.net</a>
+          </div>
+          <div class="footer-box">
+            <h3>Partners</h3>
+            <a href="">unicorns.com</a>
+            <a href="">staffmanager.com</a>
+            <a href="">association.gov</a>
+          </div>
+        </div>
+        <div class="lower-container">
+          <p>Copyright © 2045 All rights reserved - By Inovati3</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
